@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaye Codling | Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
     }
     header {
-      background-color: #333;
+      background-color: #1f2937;
       color: white;
-      padding: 1rem;
-    }
-    header h1 {
-      margin: 0;
-    }
-    nav {
-      margin-top: 0.5rem;
+      padding: 1.5rem;
+      text-align: center;
     }
     nav a {
-      color: white;
-      margin-right: 15px;
+      margin: 0 1rem;
+      color: #f3f4f6;
       text-decoration: none;
+      font-weight: bold;
     }
     .hero {
-      background-color: #f4f4f4;
-      padding: 2rem;
+      background: #e5e7eb;
+      padding: 3rem;
       text-align: center;
     }
     section {
       padding: 2rem;
+      max-width: 900px;
+      margin: auto;
     }
     .skills ul {
-      list-style-type: square;
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #f3f4f6;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem 0;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #f9fafb;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
     }
   </style>
 </head>
@@ -43,33 +55,61 @@
 
   <header>
     <h1>Shaye Codling</h1>
+    <p>Director of Admissions | Leadership | Sales | Educator</p>
     <nav>
-      <a href="#about">About Me</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <div class="hero">
-    <h2>Welcome to my website!</h2>
-    <p>I'm glad you're here. Explore to learn more about me and what I do.</p>
+    <h2>Welcome!</h2>
+    <p>I’m Shaye Codling, a passionate leader with extensive experience in admissions, sales, and education. I’m driven by growth, meaningful communication, and real impact.</p>
   </div>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm a passionate data science enthusiast with a strong background in math, programming, and problem solving. I love finding insights in data and building things that make life better.</p>
+    <p>Based in Rexburg, Idaho, I currently serve as Director of Admissions at Recording, Radio, Film Connection & Culinary Schools. My background spans founding a business, managing regional sales teams, and supporting students and clients through tailored learning paths. I’m fluent in English and Spanish and value meaningful leadership and communication at every level.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Director of Admissions</strong> – Recording, Radio, Film Connection & Culinary Schools (2024–Present)</li>
+      <li><strong>Founder</strong> – Reliant Business Solutions, LLC (2022–Present)</li>
+      <li><strong>Regional Sales Manager</strong> – Vantage Marketing (2019–2024)</li>
+      <li><strong>President of Sales</strong> – The Super Trader (2021–2023)</li>
+      <li><strong>Area Sales Manager</strong> – Aptive Environmental (2018–2019)</li>
+      <li><strong>ESL Tutor</strong> – BOXFiSH & Roberts School District (2016–2017)</li>
+      <li><strong>Paraprofessional</strong> – Sugar-Salem High School (2015)</li>
+      <li><strong>CNA</strong> – Homestead Assisted Living (2014)</li>
+    </ul>
   </section>
 
   <section id="skills" class="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Python</li>
-      <li>Pandas & NumPy</li>
-      <li>Data Visualization (Matplotlib, Seaborn)</li>
-      <li>Machine Learning (Scikit-learn)</li>
-      <li>SQL</li>
-      <li>Data Cleaning and Analysis</li>
+      <li>Leadership & Team Management</li>
+      <li>Admissions & Academic Advising</li>
+      <li>Sales Strategy & Execution</li>
+      <li>Bilingual Communication (English & Spanish)</li>
+      <li>Public Speaking & Outreach</li>
+      <li>CRM & Enrollment Tools</li>
     </ul>
   </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:shaye.codling@gmail.com">shaye.codling@gmail.com</a></p>
+    <p>Phone: <a href="tel:8017094188">801-709-4188</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shaye-codling-43839911a" target="_blank">View Profile</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Shaye Codling. All rights reserved.
+  </footer>
 
 </body>
 </html>
